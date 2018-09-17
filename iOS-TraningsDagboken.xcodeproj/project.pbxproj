@@ -12,6 +12,7 @@
 		5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */; };
 		5F88CDE5214FBD5300B03813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDE4214FBD5300B03813 /* Assets.xcassets */; };
 		5F88CDE8214FBD5300B03813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDE6214FBD5300B03813 /* LaunchScreen.storyboard */; };
+		5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5F88CDE4214FBD5300B03813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F88CDE7214FBD5300B03813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F88CDE9214FBD5300B03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5F88CDE6214FBD5300B03813 /* LaunchScreen.storyboard */,
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
+				5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */,
 			);
 			path = "iOS-TraningsDagboken";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,
 				5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */,
 			);

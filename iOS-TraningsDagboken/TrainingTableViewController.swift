@@ -9,6 +9,9 @@
 import UIKit
 
 class TrainingTableViewController: UITableViewController {
+    
+    var gymNames = ["Sats", "Friskis & Svettis", "Actic", "Always Fitness 24","Fitness24Seven","Itrim","Puls & träning", "Nordic Wellness", "Nautilus", "WorldClass", "Medley", "Delta Gym", "Klättercentret", "Balance Training"]
+    var gymImages = ["Sats", "Friskis&Svettis", "Actic", "AlwaysFitness24","Fitness24Seven","Itrim","Puls&Traning", "NordicWellness", "Nautilus", "WorldClass", "Medley", "DeltaGym", "Klattercentret", "BalanceTraining"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +32,21 @@ class TrainingTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
-
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //set cellIdentifier to 
+        let cellIdentifier = "Cell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        
+        cell.textLabel?.text = gymNames[indexPath.row]
+        cell.imageView?.image = UIImage(named: gymImages[indexPath.row])
+        
+        return cell
+    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return gymNames.count
     }
 
     /*

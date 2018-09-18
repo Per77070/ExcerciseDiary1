@@ -9,10 +9,15 @@
 import UIKit
 
 class TrainingTableViewController: UITableViewController {
-    
+    //Array of gym names
     var gymNames = ["Sats", "Friskis & Svettis", "Actic", "Always Fitness 24","Fitness24Seven","Itrim","Puls & träning", "Nordic Wellness", "Nautilus", "WorldClass", "Medley", "Delta Gym", "Klättercentret", "Balance Training"]
+    //Array of gym image names
     var gymImages = ["Sats", "Friskis&Svettis", "Actic", "AlwaysFitness24","Fitness24Seven","Itrim","Puls&Traning", "NordicWellness", "Nautilus", "WorldClass", "Medley", "DeltaGym", "Klattercentret", "BalanceTraining"]
-
+    
+    var gymLocations = ["Kocksgatan 12", "Götgatan 78","Årstavägen 53","Elsa Brändströms gata 201","Blekingegatan 63","Magnus Ladulåsgatan 48","Timmermansgatan 34B-C", "Hornsgatan 67", "Skeppsmäklargatan 1" ,"Hornsgatan 8", "Griffelvägen 11", "Hälsingegatan 5", "Tellusgången 22-24", "Lästmakargatan 10"]
+   
+    var trainingType = ["Gym & Pass","Gym & Pass","Crossfit","Gym 24/7","Gym 24/7","Viktminskning","Gym","Gym & Pass","Crossfit","Gym & Pass", "Gym & Simning", "Gym & PT","Bouldergym","Gym & PT"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,10 +42,10 @@ class TrainingTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //set cellIdentifier to 
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TrainingTableViewCell //as! is for setting the cell to our own custom one named TrainingTableViewCell
         
-        cell.textLabel?.text = gymNames[indexPath.row]
-        cell.imageView?.image = UIImage(named: gymImages[indexPath.row])
+        cell.nameLabel?.text = gymNames[indexPath.row]
+        cell.thumbnailImageView?.image = UIImage(named: gymImages[indexPath.row])
         
         return cell
     }

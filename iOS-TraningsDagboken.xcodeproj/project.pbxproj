@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F05A11F214FE2A200C04B41 /* Assets.xcassets */; };
+		5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */; };
 		5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDDA214FBD5100B03813 /* AppDelegate.swift */; };
 		5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDDE214FBD5100B03813 /* Main.storyboard */; };
 		5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		5F05A11F214FE2A200C04B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewCell.swift; sourceTree = "<group>"; };
 		5F88CDD7214FBD5100B03813 /* iOS-TraningsDagboken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-TraningsDagboken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F88CDDA214FBD5100B03813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F88CDDF214FBD5100B03813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F05A1232150DAC600C04B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F05A1242150DAD600C04B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F05A1252150DADD00C04B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F05A1262150DB1E00C04B41 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5F88CDDE214FBD5100B03813 /* Main.storyboard */,
+				5F88CDE6214FBD5300B03813 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		5F88CDCE214FBD5100B03813 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +90,13 @@
 		5F88CDD9214FBD5100B03813 /* iOS-TraningsDagboken */ = {
 			isa = PBXGroup;
 			children = (
+				5F05A1262150DB1E00C04B41 /* Storyboard */,
+				5F05A1252150DADD00C04B41 /* Controller */,
+				5F05A1242150DAD600C04B41 /* Model */,
+				5F05A1232150DAC600C04B41 /* View */,
 				5F88CDDA214FBD5100B03813 /* AppDelegate.swift */,
-				5F88CDDE214FBD5100B03813 /* Main.storyboard */,
-				5F88CDE6214FBD5300B03813 /* LaunchScreen.storyboard */,
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
-				5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
 			);
 			path = "iOS-TraningsDagboken";
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */,
+				5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,
 				5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */,
 			);

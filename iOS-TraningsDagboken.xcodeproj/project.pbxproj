@@ -47,13 +47,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		5F05A1242150DAD600C04B41 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		5F05A1252150DADD00C04B41 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +83,6 @@
 		5F88CDD9214FBD5100B03813 /* iOS-TraningsDagboken */ = {
 			isa = PBXGroup;
 			children = (
-				5F05A1242150DAD600C04B41 /* Model */,
 				5F05A1262150DB1E00C04B41 /* Storyboard */,
 				5F05A1252150DADD00C04B41 /* Controller */,
 				5F05A1232150DAC600C04B41 /* View */,

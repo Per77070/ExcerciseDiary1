@@ -16,7 +16,7 @@ class TrainingTableViewCell: UITableViewCell {
     @IBOutlet var thumbnailImageView: UIImageView!{
         didSet{
             //setting the cornerRadius to half the image width
-            thumbnailImageView.layer.cornerRadius = thumbnailImageView.bounds.width / 2
+            //thumbnailImageView.layer.cornerRadius = thumbnailImageView.bounds.width / 2
             //clips/crops the image
             thumbnailImageView.clipsToBounds = true
         }

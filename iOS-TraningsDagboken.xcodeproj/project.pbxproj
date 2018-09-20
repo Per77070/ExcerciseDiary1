@@ -15,6 +15,7 @@
 		5F88CDE8214FBD5300B03813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F88CDE6214FBD5300B03813 /* LaunchScreen.storyboard */; };
 		5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */; };
 		BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91352153DAAE00014A98 /* TrainingLogController.swift */; };
+		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5F88CDE9214FBD5300B03813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
 		BCDC91352153DAAE00014A98 /* TrainingLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLogController.swift; sourceTree = "<group>"; };
+		BCDC91372153E85100014A98 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				5F05A1212150DA5200C04B41 /* TrainingTableViewCell.swift */,
+				BCDC91372153E85100014A98 /* RoundedTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */,
+				BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */,
 				BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */,
 				5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,

@@ -7,8 +7,48 @@
 //
 
 import UIKit
+import CoreData
 
 class TrainingLogViewController: UITableViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+
+    @IBOutlet var nameField: RoundedTextField! {
+    didSet {
+    nameField.tag = 1
+    nameField.becomeFirstResponder()
+    nameField.delegate = self
+    }
+}
+    
+    @IBOutlet weak var adressField: RoundedTextField! {
+        didSet {
+            adressField.tag = 2
+            adressField.delegate = self
+       }
+    }
+    
+    @IBOutlet weak var datumField: RoundedTextField! {
+        didSet{
+            datumField.tag = 3
+            datumField.delegate = self
+            
+        }
+    }
+    
+    @IBOutlet weak var descriptionText: UITextView! {
+        didSet{
+            descriptionText.tag = 4
+            descriptionText.layer.cornerRadius = 5.0
+            descriptionText.layer.masksToBounds = true
+            
+        }
+    }
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

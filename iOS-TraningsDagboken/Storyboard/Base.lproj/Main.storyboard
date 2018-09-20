@@ -72,7 +72,7 @@
                                                             <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fill in the restaurant name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gNs-Cr-b09" customClass="RoundedTextField" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gNs-Cr-b09" userLabel="Name Field" customClass="RoundedTextField" customModule="iOS_TraningsDagboken">
                                                             <rect key="frame" x="0.0" y="25.5" width="339" height="34.5"/>
                                                             <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="textColor"/>
@@ -106,7 +106,7 @@
                                                             <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fill in the restaurant type" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fH3-Vh-fn2" customClass="RoundedTextField" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fH3-Vh-fn2" userLabel="Adress Field" customClass="RoundedTextField" customModule="iOS_TraningsDagboken" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="25.5" width="339" height="34.5"/>
                                                             <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="textColor"/>
@@ -140,7 +140,7 @@
                                                             <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fill in the restaurant address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-vC-pXK" customClass="RoundedTextField" customModule="iOS_TraningsDagboken" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v0v-vC-pXK" userLabel="Datum Field" customClass="RoundedTextField" customModule="iOS_TraningsDagboken" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="25.5" width="339" height="34.5"/>
                                                             <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="textColor"/>
@@ -204,17 +204,10 @@
                         <barButtonItem key="rightBarButtonItem" title="Spara" id="pJR-fy-WXn"/>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="800"/>
-                    <connections>
-                        <outlet property="addressTextField" destination="v0v-vC-pXK" id="YUi-XO-eTa"/>
-                        <outlet property="descriptionTextView" destination="XSk-4r-nH9" id="2Hz-Q0-9TH"/>
-                        <outlet property="nameTextField" destination="gNs-Cr-b09" id="HAK-Qb-xtx"/>
-                        <outlet property="photoImageView" destination="RSE-mz-hJ6" id="g86-Ss-6F7"/>
-                        <outlet property="typeTextField" destination="fH3-Vh-fn2" id="Hjv-Xy-k5A"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpd-h3-OiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="918" y="-894"/>
+            <point key="canvasLocation" x="516" y="-895"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kD0-D9-LnG">
@@ -315,7 +308,7 @@
                     <navigationItem key="navigationItem" id="KTF-ac-VkU">
                         <barButtonItem key="rightBarButtonItem" title="Ny" id="VKS-9Q-qlx">
                             <connections>
-                                <segue destination="UqX-t5-U4m" kind="presentation" identifier="addNewTrainingLog" id="FUj-Ds-c85"/>
+                                <segue destination="UqX-t5-U4m" kind="presentation" identifier="addNewTrainingLog" id="Cny-2v-UHC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

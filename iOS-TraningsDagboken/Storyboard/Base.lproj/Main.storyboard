@@ -25,7 +25,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWc-pb-Bgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-217" y="-894"/>
+            <point key="canvasLocation" x="116" y="-944"/>
         </scene>
         <!--Lägg till en ny träning-->
         <scene sceneID="r7Y-O4-oQ0">
@@ -207,7 +207,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpd-h3-OiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="516" y="-895"/>
+            <point key="canvasLocation" x="876" y="-945"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kD0-D9-LnG">
@@ -308,7 +308,7 @@
                     <navigationItem key="navigationItem" id="KTF-ac-VkU">
                         <barButtonItem key="rightBarButtonItem" title="Ny" id="VKS-9Q-qlx">
                             <connections>
-                                <segue destination="UqX-t5-U4m" kind="presentation" identifier="addNewTrainingLog" id="Cny-2v-UHC"/>
+                                <segue destination="UqX-t5-U4m" kind="show" id="mP2-w2-FEL"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

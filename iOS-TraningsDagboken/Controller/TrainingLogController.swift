@@ -59,23 +59,44 @@ class TrainingLogViewController: UITableViewController,UITextFieldDelegate, UIIm
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    // MARK: - UITableViewDelegate methods
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            
+            _ = UIAlertController(title: "", message: "Choose your photo source", preferredStyle: .actionSheet)
+            
+            _ = UIAlertAction(title: "Camera", style: .default, handler: { (action) in
+                if UIImagePickerController.isSourceTypeAvailable(.camera) {
+                    let imagePicker = UIImagePickerController()
+                    imagePicker.delegate = self
+                    imagePicker.allowsEditing = false
+                    imagePicker.sourceType = .camera
+                    
+                    self.present(imagePicker, animated: true, completion: nil)
+                }
+            })
+            
+            _ = UIAlertAction(title: "Photo library", style: .default, handler: { (action) in
+                if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+                    let imagePicker = UIImagePickerController()
+                    imagePicker.delegate = self
+                    imagePicker.allowsEditing = false
+                    imagePicker.sourceType = .photoLibrary
+                    
+                    self.present(imagePicker, animated: true, completion: nil)
+                }
+            })
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -133,3 +154,8 @@ class TrainingLogViewController: UITableViewController,UITextFieldDelegate, UIIm
     */
 
 }
+}
+
+}
+
+

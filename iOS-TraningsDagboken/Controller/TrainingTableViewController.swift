@@ -10,7 +10,7 @@ import UIKit
 
 class TrainingTableViewController: UITableViewController {
     //Array of gym names
-    var gymNames = ["Satss", "Friskis & Svettis", "Actic", "Always Fitness 24","Fitness24Seven","Itrim","Puls & träning", "Nordic Wellness", "Nautilus", "WorldClass", "Medley", "Delta Gym", "Klättercentret", "Balance Training"]
+    var gymNames = ["Sats", "Friskis & Svettis", "Actic", "Always Fitness 24","Fitness24Seven","Itrim","Puls & träning", "Nordic Wellness", "Nautilus", "WorldClass", "Medley", "Delta Gym", "Klättercentret", "Balance Training"]
     //Array of gym image names
     var gymImages = ["Sats", "Friskis&Svettis", "Actic", "AlwaysFitness24","Fitness24Seven","Itrim","Puls&Traning", "NordicWellness", "Nautilus", "WorldClass", "Medley", "DeltaGym", "Klattercentret", "BalanceTraining"]
     

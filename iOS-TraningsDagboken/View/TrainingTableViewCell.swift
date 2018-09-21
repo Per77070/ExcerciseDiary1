@@ -10,6 +10,10 @@ import UIKit
 
 class TrainingTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var date: RoundedTextField!
+    @IBOutlet weak var address: RoundedTextField!
+    @IBOutlet weak var name: RoundedTextField!
+    @IBOutlet weak var photo: UIImageView!
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var locationLabel: UILabel!
     @IBOutlet var nameLabel: UILabel!

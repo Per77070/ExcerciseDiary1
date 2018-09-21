@@ -204,10 +204,17 @@
                         <barButtonItem key="rightBarButtonItem" title="Spara" id="pJR-fy-WXn"/>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="800"/>
+                    <connections>
+                        <outlet property="address" destination="fH3-Vh-fn2" id="uuW-sj-Re9"/>
+                        <outlet property="date" destination="v0v-vC-pXK" id="4pe-0R-3JR"/>
+                        <outlet property="description" destination="XSk-4r-nH9" id="L62-Cx-X8P"/>
+                        <outlet property="name" destination="gNs-Cr-b09" id="rMd-fV-gSF"/>
+                        <outlet property="photo" destination="RSE-mz-hJ6" id="LJG-DE-BYB"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpd-h3-OiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="876" y="-945"/>
+            <point key="canvasLocation" x="876" y="-945.4272863568217"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kD0-D9-LnG">
@@ -228,7 +235,6 @@
         <!--Training Table View Controller-->
         <scene sceneID="Mpc-z9-ym6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ7-Ng-3Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="qzu-Cj-YTJ" customClass="TrainingTableViewController" customModule="iOS_TraningsDagboken" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EcU-Mp-NFf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -311,6 +317,7 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ7-Ng-3Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-13.6" y="39.130434782608695"/>
         </scene>

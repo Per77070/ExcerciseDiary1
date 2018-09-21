@@ -16,6 +16,8 @@
 		5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */; };
 		BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91352153DAAE00014A98 /* TrainingLogController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
+		CBE312C12154D70700CC178C /* WorkoutDataSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */; };
+		CBE312C42154E3CE00CC178C /* iOS-TraningsDagboken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE312C32154E3CE00CC178C /* iOS-TraningsDagboken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		5F88CDF3214FC9EF00B03813 /* TrainingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
 		BCDC91352153DAAE00014A98 /* TrainingLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLogController.swift; sourceTree = "<group>"; };
 		BCDC91372153E85100014A98 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataSQL.swift; sourceTree = "<group>"; };
+		CBE312C22154DEBA00CC178C /* WorkoutDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = WorkoutDB.db; path = ../../../WorkoutDB.db; sourceTree = "<group>"; };
+		CBE312C32154E3CE00CC178C /* iOS-TraningsDagboken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "iOS-TraningsDagboken.swift"; path = "../../../Desktop/iOS-TraningsDagboken.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
+				CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */,
+				CBE312C32154E3CE00CC178C /* iOS-TraningsDagboken.swift */,
+				CBE312C22154DEBA00CC178C /* WorkoutDB.db */,
 			);
 			path = "iOS-TraningsDagboken";
 			sourceTree = "<group>";
@@ -175,7 +183,9 @@
 				BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */,
 				BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */,
 				5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */,
+				CBE312C12154D70700CC178C /* WorkoutDataSQL.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,
+				CBE312C42154E3CE00CC178C /* iOS-TraningsDagboken.swift in Sources */,
 				5F88CDE3214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5QGBJ5J5Y;
 				INFOPLIST_FILE = "iOS-TraningsDagboken/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5QGBJ5J5Y;
 				INFOPLIST_FILE = "iOS-TraningsDagboken/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

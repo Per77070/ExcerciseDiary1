@@ -17,6 +17,7 @@
 		BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91352153DAAE00014A98 /* TrainingLogController.swift */; };
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
 		CBE312C12154D70700CC178C /* WorkoutDataSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */; };
+		CBE312C62155182F00CC178C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE312C52155182F00CC178C /* GoogleService-Info.plist */; };
 		F6BF443CEFDB0E9DF88E94D8 /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A3301BB39EC3EC21CD937 /* Pods_iOS_TraningsDagboken.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		BCDC91372153E85100014A98 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataSQL.swift; sourceTree = "<group>"; };
 		CBE312C22154DEBA00CC178C /* WorkoutDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = WorkoutDB.db; path = ../../../WorkoutDB.db; sourceTree = "<group>"; };
+		CBE312C52155182F00CC178C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/RestaurangGuiden4/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				5F05A1252150DADD00C04B41 /* Controller */,
 				5F05A1232150DAC600C04B41 /* View */,
 				5F88CDE9214FBD5300B03813 /* Info.plist */,
+				CBE312C52155182F00CC178C /* GoogleService-Info.plist */,
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
 				CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */,
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F88CDE8214FBD5300B03813 /* LaunchScreen.storyboard in Resources */,
+				CBE312C62155182F00CC178C /* GoogleService-Info.plist in Resources */,
 				5F05A120214FE2A200C04B41 /* Assets.xcassets in Resources */,
 				5F88CDE0214FBD5100B03813 /* Main.storyboard in Resources */,
 			);
@@ -204,15 +208,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
 			);
@@ -225,8 +225,6 @@
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-TraningsDagboken/Pods-iOS-TraningsDagboken-frameworks.sh",
@@ -243,8 +241,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
@@ -268,15 +264,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-iOS-TraningsDagboken-checkManifestLockResult.txt",
 			);

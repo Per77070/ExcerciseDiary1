@@ -1,4 +1,4 @@
-
+/*
 //
 //  RestaurantDataSQL.swift
 //  RestaurangGuiden
@@ -8,7 +8,7 @@
 //
 
 import UIKit
-//import Firebase
+import Firebase
 
 class WorkoutDataSQL {
     
@@ -98,7 +98,7 @@ class WorkoutDataSQL {
             var scaleHeight = 800.0/ratio
             var offsetX = 0.0
             var offsetY = (scaleHeight-475)/2.0
-            image.draw(in: CGRect(x: -offsetX, y: -offsetY, width: scaleWidth, height: scaleHeight))
+            UIImage.draw(in: CGRect(x: -offsetX, y: -offsetY, width: scaleWidth, height: scaleHeight))
             if let largeImg = UIGraphicsGetImageFromCurrentImageContext(),  let jpegData = UIImageJPEGRepresentation(largeImg, 0.7) {
                 imgJpeg = jpegData
             }
@@ -132,3 +132,4 @@ class WorkoutDataSQL {
     
 }
 
+*/

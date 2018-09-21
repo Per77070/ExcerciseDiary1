@@ -302,7 +302,6 @@
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="qzu-Cj-YTJ" id="bO1-AS-f8s"/>
-                            <outlet property="delegate" destination="qzu-Cj-YTJ" id="5Jz-fd-UD1"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="KTF-ac-VkU">

@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import Firebase
 class TrainingLogViewController: UITableViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
 

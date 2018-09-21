@@ -1,0 +1,6 @@
+framework module Pods_iOS_TraningsDagboken {
+  umbrella header "Pods-iOS-TraningsDagboken-umbrella.h"
+
+  export *
+  module * { export * }
+}

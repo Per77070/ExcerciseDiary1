@@ -18,6 +18,7 @@
 		BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC91372153E85100014A98 /* RoundedTextField.swift */; };
 		CBE312C12154D70700CC178C /* WorkoutDataSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */; };
 		CBE312C62155182F00CC178C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE312C52155182F00CC178C /* GoogleService-Info.plist */; };
+		CBE312C821551AAF00CC178C /* WorkoutDataFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE312C721551AAF00CC178C /* WorkoutDataFB.swift */; };
 		F6BF443CEFDB0E9DF88E94D8 /* Pods_iOS_TraningsDagboken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A3301BB39EC3EC21CD937 /* Pods_iOS_TraningsDagboken.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataSQL.swift; sourceTree = "<group>"; };
 		CBE312C22154DEBA00CC178C /* WorkoutDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = WorkoutDB.db; path = ../../../WorkoutDB.db; sourceTree = "<group>"; };
 		CBE312C52155182F00CC178C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/RestaurangGuiden4/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBE312C721551AAF00CC178C /* WorkoutDataFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataFB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				5F88CDE1214FBD5100B03813 /* iOS_TraningsDagboken.xcdatamodeld */,
 				5F05A11F214FE2A200C04B41 /* Assets.xcassets */,
 				CBE312C02154D70700CC178C /* WorkoutDataSQL.swift */,
+				CBE312C721551AAF00CC178C /* WorkoutDataFB.swift */,
 				CBE312C22154DEBA00CC178C /* WorkoutDB.db */,
 			);
 			path = "iOS-TraningsDagboken";
@@ -287,6 +290,7 @@
 				5F88CDF4214FC9EF00B03813 /* TrainingTableViewController.swift in Sources */,
 				BCDC91382153E85100014A98 /* RoundedTextField.swift in Sources */,
 				BCDC91362153DAAE00014A98 /* TrainingLogController.swift in Sources */,
+				CBE312C821551AAF00CC178C /* WorkoutDataFB.swift in Sources */,
 				5F05A1222150DA5200C04B41 /* TrainingTableViewCell.swift in Sources */,
 				CBE312C12154D70700CC178C /* WorkoutDataSQL.swift in Sources */,
 				5F88CDDB214FBD5100B03813 /* AppDelegate.swift in Sources */,

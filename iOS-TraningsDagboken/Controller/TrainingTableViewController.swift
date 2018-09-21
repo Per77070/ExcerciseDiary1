@@ -8,6 +8,9 @@
 
 import UIKit
 import Firebase
+
+
+
 class TrainingTableViewController: UITableViewController {
     //Array of gym names
     var gymNames = ["Sats", "Friskis & Svettis", "Actic", "Always Fitness 24","Fitness24Seven","Itrim","Puls & träning", "Nordic Wellness", "Nautilus", "WorldClass", "Medley", "Delta Gym", "Klättercentret", "Balance Training"]

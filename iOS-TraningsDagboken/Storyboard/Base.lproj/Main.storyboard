@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -227,6 +228,7 @@
         <!--Training Table View Controller-->
         <scene sceneID="Mpc-z9-ym6">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ7-Ng-3Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="qzu-Cj-YTJ" customClass="TrainingTableViewController" customModule="iOS_TraningsDagboken" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EcU-Mp-NFf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -292,6 +294,8 @@
                                     <outlet property="locationLabel" destination="iyl-fq-8rL" id="eCK-0o-i7k"/>
                                     <outlet property="nameLabel" destination="EbF-wv-7J1" id="1Oz-MB-MZ2"/>
                                     <outlet property="thumbnailImageView" destination="gcv-5m-RCp" id="oDP-Sg-MZN"/>
+                                    <segue destination="lUX-Cf-z4x" kind="show" trigger="accessoryAction" id="FE9-Ha-V2A"/>
+                                    <segue destination="lUX-Cf-z4x" kind="show" id="rGm-qp-4Ek"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -307,12 +311,52 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQ7-Ng-3Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-13.6" y="39.130434782608695"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="zIR-08-bi3">
+            <objects>
+                <viewController id="lUX-Cf-z4x" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cvT-6p-cbb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPb-bk-XoA">
+                                <rect key="frame" x="138" y="252" width="42" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Actic" translatesAutoresizingMaskIntoConstraints="NO" id="CSL-n7-pfh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="44S-hd-IRb">
+                                <rect key="frame" x="39" y="331" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U4o-cj-ecp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="65B-FO-0bN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.60000000000002" y="36.431784107946029"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Actic" width="1526" height="1010"/>
         <image name="heart-tick" width="22" height="21"/>
+        <image name="photo" width="16" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rGm-qp-4Ek"/>
+    </inferredMetricsTieBreakers>
 </document>
